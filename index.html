@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <style>
+        .container {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+        }
+
+        .description {
+            width: 400px;
+            height: 190px;
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .card {
+            width: 185px;
+            height: 190px;
+            background-color: #F6FBFE;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .card:hover {
+            transform: scale(1.1);
+        }
+        
+        .card-content {
+            text-align: center;
+        }
+        
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .card-description {
+            font-size: 16px;
+            color: #666;
+        }
+        .box {
+    	width: 200px;
+        height: 200px;
+    	padding:10px;
+    	color:black;
+        background-color: #F6FBFE;
+    	transition: transform 0.5s;
+    }
+
+    .box:hover {
+      transform: translateY(-10px);
+    }
+    .box:hover p {
+      display: block;
+    }
+    
+    p{
+    display:none;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="description">
+            <h2 style="text-align: center;  color: #001B5D;   font: size 1000px;;" >Why the industry chooses Clickdee?</h2>
+            <h5 style="text-align: justify;">We understand performance marketing from every angle and every stage of the funnel. Our clients trust that we know what metrics move their business towards growth. Our publisher and affiliate partners know that we make maximum revenue and ROAS a main focus when growing our partnerships.</h5>
+        </div>
+        <div class="card-container">
+            <div class="card box ">
+                <img class="card-icon" src="local_targeting_icon.png" alt="Local Targeting Icon">
+                <div class="card-content">
+                    <h2 class="card-title">Choose your <br> Local Targeting</h2>
+                    <p class="card-description">Our targeted and tracked calls are tailored to your business needs, audience, and geolocation.</p>
+                </div>
+            </div>
+            <div class="card box">
+                <div class="card-content">
+                    <img class="card-icon" src="conversation_tracking_icon.png" alt="Conversation Tracking Icon">
+                    <h2 class="card-title">Track your <br> Conversation</h2>
+                    <p class="card-description">We use the most progressive tracking and analytics technology to ensure that every call can be tracked and evaluated</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card-container">
+        <div class="card box" style="margin-left: 190px; ">
+            <img class="card-icon" src="customized_campaigns_icon.png" alt="Customized Campaigns Icon">
+            <div class="card-content">
+                <h2 class="card-title">Customized <br> Campaigns</h2>
+                <p class="card-description">Audiences, budgets, and goals: you decide the criteria for your digital ad campaign, and we’ll do the rest.</p>
+            </div>
+        </div>
+        <div class="card box">
+            <div class="card-content">
+                <img class="card-icon" src="dedicated_support_icon.png" alt="Dedicated Support Icon">
+                <h2 class="card-title">Get Dedicated <br> Support Team</h2>
+                <p class="card-description">We constantly monitor quality control! Our affiliate network of publishers are digital ad experts that have been vetted.</p>
+            </div>
+        </div>
+        <div class="card box">
+            <div class="card-content">
+                <img class="card-icon" src="quality_assurance_icon.png" alt="Quality Assurance Icon">
+                <h2 class="card-title">Quality <br> Assurance</h2>
+                <p class="card-description">We constantly monitor quality control! Our affiliate network of publishers are digital ad experts that have been vetted.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
